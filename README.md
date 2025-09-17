@@ -38,12 +38,12 @@ O objetivo é disponibilizar endpoints para cálculos geométricos em 2D e 3D, c
 
 ## 📂 Estrutura do Projeto
 
-- **Interfaces**: `ICalculos2D`, `ICalculos3D`, `ICalculadoraService`  
-- **Models**: Implementações das formas (`Circulo`, `Retangulo`, `Esfera`)  
-- **Services**: `CalculadoraService` para orquestração dos cálculos  
-- **Controllers**: `CalculosController` e `ValidacoesController`  
-- **DTOs**: `FormaRequest`, `ErrorResponse`, etc.  
-- **Validators**: Validações de entrada (ex: valores negativos não permitidos)  
+- **Interfaces**: `ICalculos2D`, `ICalculos3D`, `ICalculadoraService`.
+- **Models**: Implementações das formas (`Circulo`, `Retangulo`, `Esfera`).
+- **Services**: `CalculadoraService` para orquestração dos cálculos. 
+- **Controllers**: `CalculosController`
+- **DTOs**: `FormaRequest`, `ErrorResponse`.  
+- **Validators**: Validações de entrada (ex: valores negativos não permitidos).
 
 <p align="right"><a href="#readme-top">Voltar ao topo</a></p>
 
