@@ -1,0 +1,6 @@
+@ChekpointCP4_HostAddress = http://localhost:5200
+
+GET {{ChekpointCP4_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
