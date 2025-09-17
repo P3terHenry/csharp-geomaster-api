@@ -41,7 +41,7 @@ O objetivo é disponibilizar endpoints para cálculos geométricos em 2D e 3D, c
 - **Interfaces**: `ICalculos2D`, `ICalculos3D`, `ICalculadoraService`.
 - **Models**: Implementações das formas (`Circulo`, `Retangulo`, `Esfera`).
 - **Services**: `CalculadoraService` para orquestração dos cálculos. 
-- **Controllers**: `CalculosController`
+- **Controllers**: `CalculosController`.
 - **DTOs**: `FormaRequest`, `ErrorResponse`.  
 - **Validators**: Validações de entrada (ex: valores negativos não permitidos).
 
@@ -59,7 +59,7 @@ O objetivo é disponibilizar endpoints para cálculos geométricos em 2D e 3D, c
 - `POST /api/v1/calculos/volume`
 - `POST /api/v1/calculos/superficie`
 
-### Validações Extras
+### Validações Extras (Não realizado)
 - `POST /api/v1/validacoes/forma-contida` → Verifica se uma forma está geometricamente contida dentro de outra (ex: círculo dentro de retângulo).
 - OBS: Esse eu não realizei, devido a limitações de tempo e complexidade adicional.
 
@@ -79,7 +79,7 @@ O objetivo é disponibilizar endpoints para cálculos geométricos em 2D e 3D, c
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/CheckpointCP4.git
+   git clone https://github.com/P3terHenry/csharp-geomaster-api.git
    ```
 2. Entre na pasta do projeto:
    ```sh
